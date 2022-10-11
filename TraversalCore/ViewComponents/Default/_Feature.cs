@@ -10,8 +10,9 @@ namespace TraversalCore.ViewComponents.Default
 
         public IViewComponentResult Invoke()
         {
-            var values = featureManager.GetList();
-            return View(values);
+            //var values = featureManager.GetList();
+           //TO DO ViewBag.image1 = featureManager.
+            return View();
         }
     }
 }
